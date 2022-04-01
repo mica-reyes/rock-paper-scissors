@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/88edde21d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
+    <div class="container">
+        <div class="hands">
+            <i class='fa-regular' id="playerHand"></i>
+            <i class='fa-regular' id="computerHand"></i>
+        </div>
+        <div class="score">
+            <div id="playerScore" class="player"></div>
+            <div id="computerScore" class="computer"></div>
+        </div>
+        <div class="selection-div">
+            <i class="fa-regular fa-hand-back-fist" data-key="rock"></i>
+            <i class="fa-regular fa-hand" data-key="paper"></i>
+            <i class="fa-regular fa-hand-scissors" data-key="scissors"></i>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>

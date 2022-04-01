@@ -1,0 +1,61 @@
+*{
+    background-color: #393E41;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+i{
+    font-size: 9em;
+}
+.selection-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.selection-div i {
+    cursor: pointer;
+    color: #FDCA40;
+}
+.player {
+    color: #F7A1B5;
+}
+.computer {
+    color: #44BBA4;
+}
+#playerHand {
+    color:  #F7A1B5;
+}
+
+#computerHand {
+    color: #44BBA4;
+}
+.score{
+    font-size: 30px;
+    display: flex;
+    gap: 80px;
+    width: 80%;
+}
+.hands{
+    display: flex;
+    gap: 80px;
+    width: 80%;
+}
+@media (max-width: 600px) {
+    i{
+        font-size: 5em;
+    }
+    .selection-div {
+        gap: 30px;
+    }
+    .hands{
+        gap: 50px;
+    }
+    .container {
+        gap: 40px;
+    }
+    .score{
+        font-size: 25px;
+         }
+     }
